@@ -1,0 +1,40 @@
+.container {
+	padding: 20px;
+}
+
+h1 {
+	color: grey;
+	font-size: 22px;
+	text-align: center;
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+a {
+	margin: 20px;
+	display: block;
+	text-align: center;
+}
+
+button {
+	padding: 10px 20px;
+	border: none;
+	background-color: grey;
+	cursor: pointer;
+	color: white;
+	text-transform: uppercase;
+	margin: 0 auto;
+	display: block;
+}
+
+button:hover {
+	color: white;
+	background-color: lightgrey;
+	transition: 0.8s;
+}
+
+p {
+	text-align: center;
+}
