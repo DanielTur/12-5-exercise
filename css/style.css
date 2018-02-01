@@ -1,40 +1,81 @@
-.container {
-	padding: 20px;
+body {
+	background-color: #00aced;
+	font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-	color: grey;
-	font-size: 22px;
+h1, h2, h3 {
+	color: white;
 	text-align: center;
 }
 
-h2, h3 {
-	text-align: center;
+h2.quote {
+	margin-top: 200px;
 }
 
-a {
-	margin: 20px;
+h3.author {
+	margin-bottom: 100px;
+}
+
+/*h2, h3 {
+	color
+	text-align: center;
+}
+*/
+a.tweet {
+	color: white;
+	padding: 10px 46px;
 	display: block;
 	text-align: center;
+	text-decoration: none;
 }
 
-button {
-	padding: 10px 20px;
-	border: none;
-	background-color: grey;
+button.trigger {
+	margin: 20px;
+	padding: 12px 30px;
+	border: 1px solid white;
+	background-color: #00aced;
 	cursor: pointer;
 	color: white;
 	text-transform: uppercase;
 	margin: 0 auto;
 	display: block;
+	outline: none;
 }
 
-button:hover {
-	color: white;
-	background-color: lightgrey;
+button.trigger:hover {
+	color: #00aced;
+	background-color: white;
 	transition: 0.8s;
 }
 
-p {
-	text-align: center;
+button.tweet {
+	/*padding: 5px 5px;*/
+	/*margin: 20px;*/
+	border: 1px solid white;
+	background-color: #00aced;
+	cursor: pointer;
+	color: white;
+	text-transform: uppercase;
+	margin: 20px auto;
+	display: block;
+	outline: none;
 }
+
+button.tweet:hover {
+	color: #00aced;
+	background-color: white;
+	transition: 0.8s;
+}
+
+button.tweet:hover i, button.tweet:hover a {
+	color: #00aced ;
+}
+
+/*a.tweet {
+	margin: 10px 40px;
+}
+*/
+
+/*p {
+	text-align: center;
+}*/
